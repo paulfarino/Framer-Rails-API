@@ -15,6 +15,9 @@ Migrate the DB:
 
     rails db:migrate
 
+Seed the DB:
+
+        rails db:seed
 
 -------------
 Brought to you by [Paul Farino](https://github.com/paulfarino)

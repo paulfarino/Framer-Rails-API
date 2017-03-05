@@ -15,9 +15,13 @@ Migrate the DB:
 
     rails db:migrate
 
+Update params:
+
+    change params.require(:user).permit(:name, :title) >> to >> params.permit(:name, :title)
+
 Seed the DB:
 
-        rails db:seed
+    rails db:seed
 
 -------------
 Brought to you by [Paul Farino](https://github.com/paulfarino)
